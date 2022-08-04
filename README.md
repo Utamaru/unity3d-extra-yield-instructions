@@ -15,7 +15,7 @@
  where `this` is of type of `MonoBehaviour`
  
  ## WaitAll
- Suspends the coroutine execution until any single of the passed coroutines to the method complete their execution.
+ Suspends the coroutine execution until any single of the coroutines passed to the method complete their execution.
  
  Usage example:
  ```
