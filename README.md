@@ -1,7 +1,7 @@
 # Extra yield instructions for Unity3D
  Additional custom yield instructions with various purposes for Unity3D's coroutines 
  
- ## WaitAny
+ ## WaitAll
  Suspends the coroutine execution until all coroutines passed to the method complete their execution.
  
  Usage example:
@@ -14,7 +14,7 @@
  ```
  where `this` is of type of `MonoBehaviour`
  
- ## WaitAll
+ ## WaitAny
  Suspends the coroutine execution until any single of the coroutines passed to the method complete their execution.
  
  Usage example:
